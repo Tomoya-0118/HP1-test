@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.header_all {
+  width: 100%;
+  background-color: #cff;
+  margin: auto;
+  height: 60px;
+}
+
+.inner {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header_list li {
+  display: inline;
+
+}
+
+.header_nav ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.header_nav ul li {
+  display: table-cell;
+}
+
+.header_nav ul li a {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.header_nav ul li a:hover {
+  color: #888;
+  border-bottom: solid 2px #ccc;
+}
+
+.header_nav ul li a span {
+  display: block;
+  font-size: 10px;
+}
+
+.top_all {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background-image: url(../img/onsen1.jpg.webp);
+  background-size: cover;
+}
+
+.top_title {
+  text-align: center;
+  margin-top: 200px;
+  opacity: 0.8;
+}
+
+.top_title h1 {
+  font-size: 60px;
+  color: black;
+}
+
+.section {
+  padding: 150px 0;
+  border-top: solid 2px #9ff;
+}
+
+.about {
+  position: relative;
+}
+
+.about::after{
+  content: "";
+  position: absolute;
+  background: url("../img/onsen2_t.jpeg") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.item {
+  position: relative;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  background: url("../img/ryouri.jpg") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.about_item {
+  width: 40%;
+  height: 50%;
+}
+
+.item_item {
+  margin-left: 60%;
+}
+
+.about_item h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: navy;
+}
+
+.item_item h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: navy;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer_all p {
+  margin-top: 20px;
+}
